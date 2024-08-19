@@ -1,0 +1,77 @@
+#left-blueheader {
+  height: 50px;
+  width: 60%;
+  background-color: #333b3a;
+  float: right;
+}
+
+#right-blueheader {
+  height: 50px;
+  width: 40%;
+  background-color: #ff371a;
+  display: flex;
+}
+
+#header {
+  height: 500px;
+  width: 100%;
+  background-color: #0d1e48;
+}
+
+#mainfeature {
+  height: 200px;
+  float: right;
+}
+
+.feature {
+  height: 150px;
+  width: 500px;
+  width: 33.33%;
+  display: flex;
+}
+
+.Box1 {
+  background-color: #7105a5;
+  float: right;
+}
+
+.Box2 {
+  background-color: #7105a5;
+  float: right;
+}
+
+.Box3 {
+  background-color: #7105a5;
+  float: left;
+  width: 33%;
+}
+
+#footer {
+  height: 250px;
+  width: 100%;
+  background-color: #323b3a;
+  float: bottom;
+}
+
+@media screen and (max-width: 900px) {
+  #header {
+    height: 200px;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #header {
+    height: 300px;
+    width: 100%;
+  }
+}
+
+/* For smartphones (portrait and landscape) */
+@media screen and (max-width: 300px) {
+  /* Styles for smartphones */
+  .feature {
+    width: 100%;
+    margin: 0;
+  }
+}
